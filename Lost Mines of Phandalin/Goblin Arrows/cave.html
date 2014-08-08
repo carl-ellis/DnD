@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style>
+			/* Projector 1280 x x800 */
+			html { margin: 0; border: 0; }
+			body { margin: 0; border: 0; }
+			div#content img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 800px;
+				width: 1280px;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id=content>
+			<img id=base src='maps/cragmaw_hideout/base.jpeg' />
+			<img id=shadow src='maps/cragmaw_hideout/shadows.png' />
+			<img id=1 src='maps/cragmaw_hideout/1.png' />
+			<img id=2 src='maps/cragmaw_hideout/2.png' />
+			<img id=3 src='maps/cragmaw_hideout/3.png' />
+			<img id=4 src='maps/cragmaw_hideout/4.png' />
+			<img id=5 src='maps/cragmaw_hideout/5.png' />
+			<img id=6 src='maps/cragmaw_hideout/6.png' />
+			<img id=7 src='maps/cragmaw_hideout/7.png' />
+			<img id=8 src='maps/cragmaw_hideout/8.png' />
+		<div>
+		<script>
+
+		function toggle_visibility(e) {
+			if(e.style.display == 'block' || e.style.display == '')
+				e.style.display = 'none';
+			else
+				e.style.display = 'block';
+		}
+
+		function khandle(e) {
+			e = e || event;
+			var evt = e.type;
+			var c = String.fromCharCode(e.keyCode || e.charCode); 
+
+			var handle = document.getElementById(c);
+			toggle_visibility(handle);
+		}
+
+		function init() {
+			toggle_visibility(document.getElementById("1"));
+		}
+
+		document.body.onkeydown = khandle;
+		document.body.onload = init;
+		</script>
+	</body>
+</html>
+
