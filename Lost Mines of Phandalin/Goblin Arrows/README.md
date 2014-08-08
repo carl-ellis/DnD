@@ -10,6 +10,7 @@ The cart encounter has a map that was created using [Dungeon Painter Online][dpo
 The cave encounter has a _fog of war_ effect which is controlled with the number keys. The map has a slightly different mapping compared to the DM version as I was going off memory. Zones 5 and 7 were combined and zone 6 was split into two zones.
 
 Numbers to zone mappings. Hit a number and the zone will toggle.
+
 1. Outside clearing (defaults to shown)
 2. Blind
 3. Wolf Kennel

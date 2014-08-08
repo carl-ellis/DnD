@@ -4,10 +4,10 @@
 
 I mostly use the maps by [Mike Schley][maplink] where appropriate, purchase the player versions of the images to get the same experience.
 
-Maps are normally within a 'maps/' subdirectory and the map htmk file will be in the root directory of an "encounter".
+Maps are normally within a 'maps/' subdirectory and the map html file will be in the root directory of an "encounter".
 The html files just resizes the map to the projector size I was using.
 
-For example, For the overworld map, you will have to add `maps/overworld.jpeg` to this directory.
+For example, for the overworld map you will have to add `maps/overworld.jpeg` to this directory.
 
 ## Sound Effects
 
@@ -17,10 +17,6 @@ I found the best way to mix the sounds when DM'ing was to have two [VLC][vlc] pl
 ## Projector
 
 To project the maps I have used a Dell M110 mounted about 1.5m above our table area.
-
-## Plans
-
-As I do more encounters, I might end up making a nice DM control page to load in maps and sound effects -- depends on the demand and usefulness to me
 
 [maplink]: http://mikeschley.zenfolio.com/p856083253
 [vlc]: http://videolan.org
